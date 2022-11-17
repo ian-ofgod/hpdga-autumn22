@@ -1,6 +1,6 @@
 #ifndef MODULE_H
 
-#include <immintrin.h>
+//#include <immintrin.h>
 #include "variable.h"
 #include "sparse.h"
 

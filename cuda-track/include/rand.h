@@ -1,7 +1,7 @@
 #ifndef RAND_H
 #include <cstdlib>
 #include <cstdint>
-#include "immintrin.h"
+//#include "immintrin.h"
 #include <assert.h>
 
 #define MY_RAND_MAX 0x7fffffff
