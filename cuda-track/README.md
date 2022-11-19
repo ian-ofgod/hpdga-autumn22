@@ -13,7 +13,7 @@ You can build and execute the existing implementation by running the following c
 
 ```sh
 make
-./gcn-seq cora # dataset name from the dataset folder: [cora, pubmed, citeseer]
+./exec/gcn-seq cora # dataset name from the dataset folder: [cora, pubmed, citeseer]
 ```
 
 You will have to modify the `Makefile` in order to compile the code with `nvcc`, as seen during the lectures.
