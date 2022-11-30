@@ -32,3 +32,25 @@ This function, based on the parameters set by `GCN::get_default()`, will execute
 4) Change the parameters accordingly with your account ID, clone repository name and token
 
 We suggest editing the original code on your local machine, commit it on GitHub and then load the changes inside of your Colab environment by executing the cell for pulling the remote commits.
+
+## How to download Reddit dataset
+
+Since this dataset is way bigger than the others, expect the loading time of the graph to be long.
+
+Remember to change the GCN parameters to the ones for the reddit dataset.
+
+The accuracy is low for the given number of epochs. 
+To avoid a very long training process, your solution will be considered valid (for this dataset) if it reduces the needed training time while maintaining the same level of accuracy as the sequential implementation for the given number of epochs.
+
+```sh
+python3 -m pip install gdown==4.5.4 --no-cache-dir
+
+cd ./cuda-track/data
+
+gdown 15ZAg6N7g6Ajr6rysFp6hgUhvb5CrqzGK
+
+gdown 1Ik6ngafkGPFim_6CQTHumm15wfY1uWoS
+
+gdown 1-nV8u4WQTWNCq2ABit7-oc72_nIYMBAw
+
+```

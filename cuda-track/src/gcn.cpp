@@ -46,6 +46,20 @@ GCNParams GCNParams::get_default() {
         5e-4,   // weight_decay
         100,    // epochs
         0};     // early_stopping*/
+
+
+    /*
+    return { // REDDIT
+        232965,   // num_nodes
+        602,   // input_dim
+        128,     // hidden_dim
+        41,      // output_dim
+        0.5,    // dropouyt
+        0.01,   // learning_rate
+        5e-4,   // weight_decay
+        100,    // epochs
+        0};     // early_stopping
+    */
 }
 
 GCN::GCN(GCNParams params, GCNData *input_data) {

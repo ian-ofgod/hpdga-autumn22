@@ -1,3 +1,6 @@
 graphml-track/data/testing.extended.vertices.csv
 cuda-track/exec/*
 .vscode/*
+cuda-track/data/reddit.graph
+cuda-track/data/reddit.split
+cuda-track/data/reddit.svmlight
